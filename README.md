@@ -1,5 +1,7 @@
 # GIT Removal Utility - BASH
 
+Have you messed up with your repositories and you just want to start a new one without losing your files? Or you just wanna get rid of all those old repositories shared everywhere online? Try my script! :D
+
 This Bash script can be run on any bash console window.
 It eliminates all the origin and GIT file from a specific folder or all the sub-folders in which it is contained.
 
