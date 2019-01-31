@@ -36,7 +36,7 @@ echo " 0 - Quit program "
 while true; do
     read choice
     if [ $choice -eq 1 ]; then
-        deleteAll "$currentFolder"
+        deleteAll "$(pwd)$currentFolder"
         echo "DONE!"
     elif [ $choice -eq 2 ]; then
         deleteAll "$args"
